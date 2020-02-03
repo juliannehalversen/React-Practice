@@ -1,0 +1,25 @@
+/* /* .Person {
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 60px;
+    text-align: center;
+}
+
+@media(min-width: 500px) {
+    .Person {
+        width: 450px;
+    }
+} 
+
+.switchNameBtn {
+    background-color: white;
+    border: 1px solid blue;
+    font: inherit;
+    padding: 8px;
+    width: 20%;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+} */
