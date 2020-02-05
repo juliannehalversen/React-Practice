@@ -28,6 +28,15 @@ class App extends Component {
   componentDidMount() {
     console.log('[App.js] componentDidMount');
   }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    console.log('[App.js] shouldComponentUpdate');
+    return true; 
+  }
+
+  componentDidUpdate() {
+    console.log('[App.js] componentDidUpdate');
+  }
   
   deletePersonHandler = (personIndex) => {
     // const persons = this.state.persons.slice(); //slice with no arguments makes a copy of the orginal array so you are working with copy, not original array
